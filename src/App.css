@@ -6,6 +6,7 @@ body {
   padding: 0%;
   margin: 0%;
   font-family: 'Times New Roman', Times, serif;
+  background-color: #E3DCB6;
 }
 
 nav {
@@ -60,6 +61,7 @@ a {
   height: calc(100vh - 80px);
   display: grid;
   place-items: center;
+  background-color: #E3DCB6;
 }
 
 .cpContainer {
