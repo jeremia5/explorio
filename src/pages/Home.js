@@ -33,8 +33,7 @@ function Home({isAuth}) {
                     <div className="deletePost">
 
 
-                        {isAuth && post.author.id === auth.currentUser.uid &&(<button onClick={() => {deletePost(post.id);}}> &#128465; </button>
-                      )}
+
                     </div>
                 </div>
                 <div className="postTextContainer"> {post.postText}</div>
@@ -45,4 +44,6 @@ function Home({isAuth}) {
     );
 }
 
+/*{isAuth && post.author.id === auth.currentUser.uid &&(<button onClick={() => {deletePost(post.id);}}> &#128465; </button>
+)}*/    
 export default Home;
